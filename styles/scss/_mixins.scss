@@ -1,0 +1,37 @@
+@mixin headerFont ($fontSize) {
+    font-family: "Walter Turncoat", cursive;
+    font-size: $fontSize;
+    color: #F3FAFF;
+}
+
+@mixin navigation() {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    color: #F3FAFF;
+    margin-top: 50px;
+}
+
+@mixin bodyText() {
+    font-family: "Roboto", sans-serif;
+    color: $paleGrey;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+@mixin footer() {
+    background-color: $darkBlue;
+    font-size: 1rem;
+    color: $paleGrey;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+@mixin hover {
+    border-bottom: 2px solid $aqua;
+}
