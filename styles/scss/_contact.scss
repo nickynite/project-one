@@ -1,0 +1,120 @@
+//CONTACT PAGE
+
+.contact-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-header {
+    background-image: url(../assets/contact-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 55vh;
+}
+
+#contact-section {
+    background-color: $turquoise;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+#contact-section h1 {
+    margin-bottom: 30px;
+}
+
+.icons {
+    padding-top: 100px;
+}
+
+.icons ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons ul li {
+    color: $paleGrey;
+    list-style: none;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.contact-text :first-child {
+    padding-bottom: 30px;
+}
+
+// CONTACT FORM STYLING
+
+input {
+    display: inline-block;
+    background-color: $purple;
+    border: none;
+    border-bottom: 1px solid $paleGrey;
+    padding: 10px;
+    color: $paleGrey;
+    width: 48%;
+}
+.user-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+textarea {
+    background-color: $purple;
+    border: 1px solid $paleGrey;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: $paleGrey;
+    resize: none;
+}
+
+.contact-form {
+    background-color: $purple;
+    padding: 50px;
+    box-shadow: 15px 15px 0 $aqua;
+    position: absolute;
+    top: -20%;
+    left: 48%;
+}
+
+button {
+    background-color: $aqua;
+    color: $purple;
+    font-family: "Walter Turncoat", cursive;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    margin-top: 30px;
+}
+
+.icons li a {
+    text-decoration: none;
+    color: $paleGrey;
+}
+
+.icons li a:hover {
+    color: $darkBlue;
+}
+
+nav a:hover {
+    @include hover;
+}
+
+.button a:hover {
+    background-color: $darkBlue;
+    color: $paleGrey;
+    transition: all 0.3s ease 0s;
+}
+
+#submit:hover {
+    background-color: $darkBlue;
+    color: $paleGrey;
+    transition: all 0.3s ease 0s;
+}

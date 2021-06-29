@@ -236,68 +236,6 @@ html {
   overflow: hidden;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-img {
-  display: block;
-  width: 100%;
-}
-
-p {
-  font-family: "Roboto", sans-serif;
-  color: #F3FAFF;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: 1px;
-}
-
-h1 {
-  font-family: "Walter Turncoat", cursive;
-  font-size: 145.2px;
-  color: #F3FAFF;
-}
-
-h2 {
-  font-family: "Walter Turncoat", cursive;
-  font-size: 121.5px;
-  color: #F3FAFF;
-  line-height: 125.6px;
-  margin-top: 30px;
-  margin-bottom: 100px;
-}
-
-h3 {
-  font-family: "Walter Turncoat", cursive;
-  font-size: 45px;
-  color: #F3FAFF;
-  line-height: 99.8px;
-  padding-left: 20px;
-}
-
-h4 {
-  font-family: "Walter Turncoat", cursive;
-  font-size: 40px;
-  color: #F3FAFF;
-  line-height: 58px;
-  letter-spacing: 1.3px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.wrapper {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 1080px;
-}
-
 .home-header {
   background-image: url(../assets/home-header.jpg);
   background-size: cover;
@@ -410,11 +348,12 @@ nav ul li {
 
 .fas {
   color: #474BB5;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .icon-background {
   color: #08FDED;
+  font-size: 5rem;
 }
 
 .flex-icons {
@@ -572,6 +511,168 @@ nav ul li {
   padding-bottom: 50px;
 }
 
+.blog-header {
+  background-image: url(../assets/blog-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 55vh;
+}
+
+.wrapper h2 {
+  padding-top: 20px;
+}
+
+#blog {
+  background-color: #03697C;
+  padding-top: 70px;
+}
+
+.blog-img1 {
+  width: 30%;
+  position: relative;
+  z-index: 1;
+}
+
+.purple-box {
+  background-color: #474BB5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 27%;
+  padding-top: 400px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 500px;
+  left: 60px;
+  z-index: 0;
+}
+
+.blog {
+  font-family: "Walter Turncoat", cursive;
+  font-size: 2rem;
+  color: #F3FAFF;
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+
+.posts li {
+  font-family: "Roboto", sans-serif;
+  color: #F3FAFF;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #F3FAFF;
+  list-style: none;
+}
+
+.posts li::before {
+  content: "•";
+  color: #08FDED;
+  display: inline-block;
+  width: 1em;
+  padding-bottom: 8px;
+}
+
+.posts li a {
+  text-decoration: none;
+  color: #F3FAFF;
+}
+
+.purple-box span a {
+  font-family: "Roboto", sans-serif;
+  color: #F3FAFF;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #F3FAFF;
+}
+
+.purple-box span a:hover,
+.posts li a:hover {
+  color: #044779;
+}
+
+.blog-img2 img {
+  -webkit-box-shadow: -15px 15px 0 #08FDED;
+          box-shadow: -15px 15px 0 #08FDED;
+}
+
+.activities {
+  width: 55%;
+  margin-left: 45%;
+  position: absolute;
+  top: 300px;
+}
+
+.activities-text {
+  border-left: 2px solid #08FDED;
+  border-bottom: 2px solid #08FDED;
+  padding: 50px 70px 80px 70px;
+  margin-left: -15px;
+}
+
+.activities-text p {
+  padding-bottom: 20px;
+}
+
+.comments {
+  background-color: #03697C;
+  padding-top: 60%;
+  padding-left: 40%;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.comment1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+.comment2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 90px;
+}
+
+.comments p:first-child {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.comments img {
+  height: 100px;
+  width: 100px;
+  margin-right: 50px;
+}
+
+.comment-form button {
+  margin-bottom: 50px;
+}
+
 .contact-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -665,7 +766,7 @@ textarea {
 
 .contact-form {
   background-color: #474BB5;
-  padding: 40px;
+  padding: 50px;
   -webkit-box-shadow: 15px 15px 0 #08FDED;
           box-shadow: 15px 15px 0 #08FDED;
   position: absolute;
@@ -695,7 +796,7 @@ button {
 }
 
 nav a:hover {
-  border-bottom: 2px solid #08FDED;
+  border-bottom: 3px solid #08FDED;
 }
 
 .button a:hover {
@@ -712,116 +813,71 @@ nav a:hover {
   transition: all 0.3s ease 0s;
 }
 
-.blog-header {
-  background-image: url(../assets/blog-header.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 55vh;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.wrapper h2 {
-  padding-top: 20px;
+html {
+  font-size: 62.5%;
 }
 
-#blog {
-  background-color: #03697C;
-  padding-top: 70px;
+img {
+  display: block;
+  width: 100%;
 }
 
-.blog-img1 {
-  width: 30%;
-  position: relative;
-  z-index: 1;
+p {
+  font-family: "Roboto", sans-serif;
+  color: #F3FAFF;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
 }
 
-.purple-box {
-  background-color: #474BB5;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 27%;
-  padding-top: 300px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  position: absolute;
-  top: 500px;
-  left: 60px;
-  z-index: 0;
-}
-
-.blog {
+h1 {
   font-family: "Walter Turncoat", cursive;
-  font-size: 1.5rem;
-  color: #F3FAFF;
-  padding-bottom: 10px;
-  padding-top: 40px;
-}
-
-.posts li {
-  font-family: "Roboto", sans-serif;
-  color: #F3FAFF;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: 1px;
-  color: #F3FAFF;
-  list-style: none;
-}
-
-.posts li::before {
-  content: "•";
-  color: #08FDED;
-  display: inline-block;
-  width: 1em;
-  padding-bottom: 8px;
-}
-
-.posts li a {
-  text-decoration: none;
+  font-size: 145.2px;
   color: #F3FAFF;
 }
 
-.purple-box span a {
-  font-family: "Roboto", sans-serif;
+h2 {
+  font-family: "Walter Turncoat", cursive;
+  font-size: 121.5px;
   color: #F3FAFF;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: 1px;
-  text-decoration: none;
+  line-height: 125.6px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+h3 {
+  font-family: "Walter Turncoat", cursive;
+  font-size: 45px;
   color: #F3FAFF;
+  line-height: 99.8px;
+  padding-left: 20px;
 }
 
-.purple-box span a:hover,
-.posts li a:hover {
-  color: #044779;
+h4 {
+  font-family: "Walter Turncoat", cursive;
+  font-size: 40px;
+  color: #F3FAFF;
+  line-height: 58px;
+  letter-spacing: 1.3px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.blog-img2 img {
-  -webkit-box-shadow: -15px 15px 0 #08FDED;
-          box-shadow: -15px 15px 0 #08FDED;
-}
-
-.activities {
-  width: 55%;
-  margin-left: 45%;
-  position: absolute;
-  top: 300px;
-}
-
-.activities-text {
-  padding: 50px;
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1080px;
 }
 
 footer {
   background-color: #044779;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #F3FAFF;
   text-align: center;
   height: 30px;

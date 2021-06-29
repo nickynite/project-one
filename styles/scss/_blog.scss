@@ -1,0 +1,140 @@
+// BLOG PAGE
+
+.blog-header {
+    background-image: url(../assets/blog-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 55vh;
+}
+
+.wrapper h2 {
+    padding-top: 20px;
+}
+
+#blog {
+    background-color: $turquoise;
+    padding-top: 70px;
+}
+
+.blog-img1 {
+    width: 30%;
+    position: relative;
+    z-index: 1;
+}
+
+.purple-box {
+    background-color: $purple;
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    padding-top: 400px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 500px;
+    left: 60px;
+    z-index: 0;
+}
+
+.blog {
+    @include headerFont(2rem);
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+.posts li {
+    @include bodyText;
+    color: $paleGrey;
+    list-style: none;
+}
+
+.posts li::before {
+    content: "\2022";
+    color: $aqua;
+    display: inline-block;
+    width: 1em;
+    padding-bottom: 8px;
+}
+
+.posts li a {
+    text-decoration: none;
+    color: $paleGrey;
+}
+
+.purple-box span a {
+    @include bodyText;
+    text-decoration: none;
+    color: $paleGrey;
+}
+
+.purple-box span a:hover,
+.posts li a:hover {
+    color: $darkBlue;
+}
+
+// New Activies Blog Post + image on top
+.blog-img2 img {
+    box-shadow: -15px 15px 0 $aqua;
+}
+
+.activities {
+    width: 55%;
+    margin-left: 45%;
+    position: absolute;
+    top: 300px;
+}
+
+.activities-text {
+    border-left: 2px solid $aqua;
+    border-bottom: 2px solid $aqua;
+    padding: 50px 70px 80px 70px;
+    margin-left: -15px;   
+}
+
+.activities-text p {
+    padding-bottom: 20px;
+    
+}
+
+// Comments
+.comments {
+    background-color: $turquoise;
+    padding-top: 60%;
+    padding-left: 40%;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.comment1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+
+.comment2 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 90px;
+}
+
+.comments p:first-child {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.comments img {
+    height: 100px;
+    width: 100px;
+    margin-right: 50px;
+}
+
+// COMMENT FORM
+
+.comment-form button {
+    margin-bottom: 50px;
+}

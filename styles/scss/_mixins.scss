@@ -25,7 +25,7 @@
 
 @mixin footer() {
     background-color: $darkBlue;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: $paleGrey;
     text-align: center;
     height: 30px;
@@ -33,5 +33,5 @@
 }
 
 @mixin hover {
-    border-bottom: 2px solid $aqua;
+    border-bottom: 3px solid $aqua;
 }
