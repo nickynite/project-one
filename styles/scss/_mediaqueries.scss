@@ -1,0 +1,273 @@
+
+// INDEX.HTML MEDIA QUERIES
+
+@media only screen and (max-width: 1175px) {
+    .header-img {
+        position: absolute;
+        max-width: 50%;
+        left: 60%;
+        top: 10%;
+        padding-top: 20%;        
+    }
+
+    .icon-text {
+        padding-top: 160px;
+    }
+}
+
+
+@media only screen and (max-width: 1030px) {
+    .header-img img {
+        position: static;
+        max-width: 100%;
+        margin: 0 auto;
+        padding-top: 20%;        
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .header-img img {
+        position: static;
+        max-width: 100%;
+        margin: 0 auto;        
+    }
+
+    #icon-links {
+        padding-top: 0px;
+    }
+
+    .icon-text {
+        flex-direction: column;
+    }
+
+    .programs-img1 img {
+        position: static;
+        top: 0px;
+        left: 0px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .programs-img2 img {
+        position: static; 
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .programs-top {
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
+    
+    .programs-bottom {
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
+
+    .locations {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .our-programs {
+        text-align: center;
+        width: 100%;
+        padding-top: 70px;
+        padding-left: 0px;
+    }
+
+    .roadtrips-text {
+        padding-top: 60px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}  
+
+@media only screen and (max-width: 680px) {
+
+    .wrapper h1 {
+        font-size: 9rem;
+    }
+
+    .events-text h3,
+    #roadtrips h3,
+    #icon-links h3 {
+        font-size: 4rem;
+    }
+
+    #programs-locations h4 {
+        font-size: 3rem;
+
+    }
+    .header-img img {
+        position: static;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
+
+    .events-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 100px;
+    }
+
+    .events-text {
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .events-img {
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    .gallery-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .gallery-flex img {
+        padding-right: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+// BLOG.HTML MEDIA QUERIES
+
+@media only screen and (max-width: 1175px) {
+    .activities-text {
+        padding: 50px 70px 30px 70px;  
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .comments {
+        padding-top: 85%;
+    }
+
+    .purple-box {
+        padding-top: 250px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .comments {
+        padding-top: 95%;
+    }
+
+    .posts li {
+        font-size: 1.45rem;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+
+    .blog-img1 {
+        width: 60%;
+        position: static;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    .purple-box {
+        background-color: $purple;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: static;
+    }
+
+    .activities {
+        width: 90%;
+        margin: 0 auto;
+        position: static;
+        top: 300px;
+    }
+
+    .activities-text {
+        border-left: none;
+        border-bottom: none;
+        text-align: center;
+    }
+
+    .comments {
+        background-color: $turquoise;
+        padding-top: 10px;
+        padding-left: 0;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+// CONTACT.HTML MEDIA QUERIES
+
+@media only screen and (max-width: 1175px) {
+    .contact-form {
+        background-color: $purple;
+        padding: 50px;
+        box-shadow: 15px 15px 0 $aqua;
+        position: absolute;
+        top: -20%;
+        left: 40%;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+
+    .contact-flex {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .icons {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+    .icons ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contact-text {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    
+   .contact-form {
+        background-color: $purple;
+        padding: 50px;
+        box-shadow: 15px 15px 0 $aqua;
+        position: static;
+        margin: 0 auto;    
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .wrapper h2 {
+        font-size: 9rem;
+    }
+}
+
+
+
+
+
+

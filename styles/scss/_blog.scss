@@ -101,7 +101,7 @@
 // Comments
 .comments {
     background-color: $turquoise;
-    padding-top: 60%;
+    padding-top: 55%;
     padding-left: 40%;
     margin-top: 50px;
     margin-bottom: 0px;
@@ -134,6 +134,19 @@
 }
 
 // COMMENT FORM
+#comment-box {
+    background-color: $turquoise;
+    width: 100%;
+}
+
+.blog-input {
+    background-color: $turquoise;
+    width: 47%;
+}
+
+.blog-input:nth-child(2){
+    margin-right: 5.5%;
+}
 
 .comment-form button {
     margin-bottom: 50px;

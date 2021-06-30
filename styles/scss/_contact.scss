@@ -20,7 +20,7 @@
     padding-bottom: 80px;
 }
 
-#contact-section h1 {
+#contact-section h2 {
     margin-bottom: 30px;
 }
 
@@ -98,6 +98,8 @@ button {
     text-decoration: none;
     color: $paleGrey;
 }
+
+// HOVER STYLES
 
 .icons li a:hover {
     color: $darkBlue;
