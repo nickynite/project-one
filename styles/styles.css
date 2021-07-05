@@ -558,12 +558,12 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 27%;
-  padding-top: 400px;
+  padding-top: 350px;
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
   position: absolute;
-  top: 500px;
+  top: 550px;
   left: 60px;
   z-index: 0;
 }
