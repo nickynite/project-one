@@ -1,0 +1,88 @@
+// BUTTON TO OPEN MODAL
+.click-button {
+    background-color: $purple;
+    color: $paleGrey;
+    font-size: 1.5rem;
+    padding: 15px 20px;
+    opacity: 0.9;
+    border: none;
+    position: fixed;
+    bottom: 0px;
+    right: 28px;
+    width: 270px;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  //  WHITE BOX CONTAINING THE FORM
+  .container-modal {
+    background-color: white;
+    width: 280px;
+    padding: 15px;
+  }
+
+//   MODAL FORM NOT DISPLAYED, FIXED AT BOTTOM OF PAGE
+  .modal-form {
+    display: none;
+    border: 3px solid $paleGrey;
+    bottom: 0;
+    right: 22px;
+    z-index: 4;
+    position: fixed;
+  }
+
+//   TEXT IN FORM
+
+  .modal-form h4 {
+      font-size: 2rem;
+      text-align: center;
+      color: $turquoise;
+      padding-bottom: 0;
+  }
+  .modal-form p {
+      color:#2E3134;
+      font-size: 1.3rem;
+      padding-top: 10px;
+      padding-bottom: 20px;
+      text-align: center;
+  }
+    
+//  INPUT FIELD
+  .container-modal input[type=text] {
+    background-color: $paleGrey;
+    color: #2E3134;
+    font-size: 1.5rem;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+    
+//  SUBSCRIBE BUTTON
+  .container-modal .btn {
+    background-color: rgb(255, 102, 0);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+  
+//   NO THANKS BUTTON
+  .container-modal .noThanks {
+    background-color: $darkBlue;
+  }
+  
+//   BUTTON HOVER EFFECTS
+  .container-modal .btn:hover, .click-button:hover {
+    opacity: 1;
+  }
+
+  //  INPUT FIELD FOCUS
+  .container-modal input[type=text]:focus {
+    background-color: #DADCE0;      
+    outline: none;
+  }

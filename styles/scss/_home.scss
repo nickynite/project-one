@@ -91,12 +91,12 @@ nav ul li {
     align-items: center;
 }
 
-.flex-icons h3 a {
+.flex-icons a {
     text-decoration: none;
     color: $paleGrey;
 }
 
-.flex-icons h3 a:hover {
+.flex-icons a:hover h3 {
     color: $darkBlue;
 }
 

@@ -369,12 +369,12 @@ nav ul li {
           align-items: center;
 }
 
-.flex-icons h3 a {
+.flex-icons a {
   text-decoration: none;
   color: #F3FAFF;
 }
 
-.flex-icons h3 a:hover {
+.flex-icons a:hover h3 {
   color: #044779;
 }
 
@@ -1133,6 +1133,87 @@ nav a:hover {
     font-size: 9rem;
   }
 }
+.click-button {
+  background-color: #474BB5;
+  color: #F3FAFF;
+  font-size: 1.5rem;
+  padding: 15px 20px;
+  opacity: 0.9;
+  border: none;
+  position: fixed;
+  bottom: 0px;
+  right: 28px;
+  width: 270px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.container-modal {
+  background-color: white;
+  width: 280px;
+  padding: 15px;
+}
+
+.modal-form {
+  display: none;
+  border: 3px solid #F3FAFF;
+  bottom: 0;
+  right: 22px;
+  z-index: 4;
+  position: fixed;
+}
+
+.modal-form h4 {
+  font-size: 2rem;
+  text-align: center;
+  color: #03697C;
+  padding-bottom: 0;
+}
+
+.modal-form p {
+  color: #2E3134;
+  font-size: 1.3rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.container-modal input[type=text] {
+  background-color: #F3FAFF;
+  color: #2E3134;
+  font-size: 1.5rem;
+  width: 100%;
+  border: none;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container-modal .btn {
+  background-color: #ff6600;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container-modal .noThanks {
+  background-color: #044779;
+}
+
+.container-modal .btn:hover, .click-button:hover {
+  opacity: 1;
+}
+
+.container-modal input[type=text]:focus {
+  background-color: #DADCE0;
+  outline: none;
+}
+
 * {
   margin: 0;
   padding: 0;
